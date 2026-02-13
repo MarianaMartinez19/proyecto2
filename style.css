@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Barra superior */
+
 .topbar {
     background: #e6e6e6;
     color: #b58a4a;
@@ -11,7 +11,7 @@ body {
     font-size: 20px;
 }
 
-/* HERO */
+
 .hero {
     background: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -19,11 +19,11 @@ body {
     height: 400px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;   /* 👈 alineado a la izquierda */
-    padding-left: 80px;            /* 👈 separación desde la izquierda */
+    justify-content: flex-start;   
+    padding-left: 80px;            
 }
 
-/* Título principal */
+
 .hero h1 {
     color: white;
     font-size: 60px;
@@ -32,15 +32,15 @@ body {
     margin: 0;
 }
 
-/* Línea dorada debajo del título */
+
 .linea {
     width: 80px;
     height: 5px;
     background: #b58a4a;
-    margin: 10px 0;   /* 👈 alineada con el texto */
+    margin: 10px 0;   
 }
 
-/* Secciones */
+
 .seccion-cafe {
     background: #8b7654;
     color: white;
@@ -52,7 +52,7 @@ body {
     padding: 60px 10%;
 }
 
-/* Contenedor */
+
 .contenedor {
     display: flex;
     gap: 40px;
@@ -60,19 +60,19 @@ body {
     flex-wrap: wrap;
 }
 
-/* Columnas */
+
 .col {
     flex: 1;
     min-width: 300px;
 }
 
-/* Imágenes */
+
 img {
     width: 100%;
     border-radius: 5px;
 }
 
-/* Títulos */
+
 h2 {
     color: #b58a4a;
     margin-bottom: 20px;
@@ -82,12 +82,12 @@ h2 {
     color: white;
 }
 
-/* Listas */
+
 ul {
     line-height: 1.8;
 }
 
-/* Video */
+
 .video {
     text-align: center;
 }
