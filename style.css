@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra superior */
+.topbar {
+    background: #e6e6e6;
+    color: #b58a4a;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* HERO */
+.hero {
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("imagenes/datos-sobre-el-correo-electrónico-featured.png") center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   /* 👈 alineado a la izquierda */
+    padding-left: 80px;            /* 👈 separación desde la izquierda */
+}
+
+/* Título principal */
+.hero h1 {
+    color: white;
+    font-size: 60px;
+    font-family: cursive;
+    text-align: left;
+    margin: 0;
+}
+
+/* Línea dorada debajo del título */
+.linea {
+    width: 80px;
+    height: 5px;
+    background: #b58a4a;
+    margin: 10px 0;   /* 👈 alineada con el texto */
+}
+
+/* Secciones */
+.seccion-cafe {
+    background: #8b7654;
+    color: white;
+    padding: 60px 10%;
+}
+
+.seccion-blanca {
+    background: white;
+    padding: 60px 10%;
+}
+
+/* Contenedor */
+.contenedor {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Columnas */
+.col {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Títulos */
+h2 {
+    color: #b58a4a;
+    margin-bottom: 20px;
+}
+
+.seccion-cafe h2 {
+    color: white;
+}
+
+/* Listas */
+ul {
+    line-height: 1.8;
+}
+
+/* Video */
+.video {
+    text-align: center;
+}
+
+.video iframe {
+    width: 80%;
+    max-width: 700px;
+    height: 400px;
+    border: none;
+}
+
+
